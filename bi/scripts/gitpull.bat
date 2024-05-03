@@ -2,7 +2,7 @@
 :: Git pull latest changes from Github repository
 :: 03/04/2024
 
-(C: && cd c:\ballgame\ballgameBI\ && git.exe pull)
+(C: && cd c:\baseball\ballgame\ballgameBI\ && git.exe stash && git.exe pull)
 pause
 
 :: to run this from a scheduled task with output
