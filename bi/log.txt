@@ -3,6 +3,22 @@ eu-sabr-ballgame@gmail.com
 
 Version log
 -----------
+v0.13.20240614 (14/06/2024)
+- Introduced Pythagorean Winning Percentage stat from Bill James.
+W% has been placed in the Teams chapter only as it only affects teams.
+
+v0.12.20240613 (13/06/2024)
+- Introduction of Belgium Baseball Under 15 Category as
+requested by Arnout Verbeken.
+
+v0.11.20240609 (09/06/2024)
+- Graphs batting page: call Hitter Information Window from bottom
+two graphs.
+- Pitchers statistics in the Graph chapter.
+
+v0.10.20240603 (03/06/2024)
+- New Graph chapter, for the moment batting only.
+
 v0.09.20240602 (02/06/2024)
 - Gameday chapter: replaced more meaningful statistics: wOBA, FIP,
 Batters Faced and Strikeouts.
