@@ -7,7 +7,8 @@
 :: 27/04/2024 Tony Pérez  git stash: discard changes (and store a record of them)
 :: 05/05/2024 Tony Pérez  git reset: discard changes and throw away them
 echo ==================================================================
-echo WBSC Europe Baseball and Softball Sabermetrics Statistics App
+echo Ballgame Metrics Statistics App
+echo https://ballgamemetrics.com/
 echo Github Refresh
 echo %DATE% %TIME%
 echo ==================================================================

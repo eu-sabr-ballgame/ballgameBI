@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# WBSC Europe Baseball and Softball Sabermetrics Statistics App
+# Ballgame Metrics Statistics App
+# https://ballgamemetrics.com/
 # MacOS Bash script to get the latest application version from Github
 # This could be included in a cron job
 # Caveat: any change on the application will be discarded.
