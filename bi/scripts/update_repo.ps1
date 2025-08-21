@@ -137,12 +137,8 @@ if ($failed) { exit 3 } else { exit 0 }
 # (Recommended) Run with highest privileges
 # If you want it headless: Run whether user is logged on or not
 
-# schtasks /create /tn "UpdateBallgameRepoDaily" ^
-#  /tr "cmd /c \"powershell.exe -ExecutionPolicy Bypass -File C:\baseball\ballgameBI\update_repo.ps1\"" ^
-#  /sc daily /st 20:00
-# schtasks /create /tn "UpdateBallgameRepoOnLogon" ^
-#  /tr "cmd /c \"powershell.exe -ExecutionPolicy Bypass -File C:\baseball\ballgameBI\update_repo.ps1\"" ^
-#  /sc onlogon
+# schtasks /create /tn "UpdateBallgameRepoDaily" ^ /tr "cmd /c \"powershell.exe -ExecutionPolicy Bypass -File C:\baseball\ballgameBI\update_repo.ps1\"" ^  /sc daily /st 20:00
+# schtasks /create /tn "UpdateBallgameRepoOnLogon" ^ /tr "cmd /c \"powershell.exe -ExecutionPolicy Bypass -File C:\baseball\ballgameBI\update_repo.ps1\"" ^ /sc onlogon
 
 # Viewing the Event Log entries
 # Open Event Viewer → Windows Logs → Application
