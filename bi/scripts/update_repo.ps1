@@ -137,6 +137,9 @@ if ($failed) { exit 3 } else { exit 0 }
 # (Recommended) Run with highest privileges
 # If you want it headless: Run whether user is logged on or not
 
+####
+#### T O   S C H E D U L E:
+#### 
 # schtasks /create /tn "UpdateBallgameRepoDaily" /sc daily /st 20:00 /tr "cmd /c \"powershell.exe -ExecutionPolicy Bypass -File C:\baseball\ballgameBI\update_repo.ps1\""
 # schtasks /create /tn "UpdateBallgameRepoOnLogon" /sc onlogon /tr "cmd /c \"powershell.exe -ExecutionPolicy Bypass -File C:\baseball\ballgameBI\update_repo.ps1\""
 # Test
