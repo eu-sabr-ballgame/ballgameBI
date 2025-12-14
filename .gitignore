@@ -160,3 +160,6 @@ cython_debug/
 #.idea/
 
 update_log_*.txt
+
+# .DS_Store
+.DS_Store
